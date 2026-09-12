@@ -1,13 +1,12 @@
-Messstellen-Dokumentation V1.1
+Messstellen-Dokumentation V1
 
-1. messstellen-doku/index.html in GitHub ersetzen.
-2. service-worker.js im Mainordner ersetzen.
-3. Commit changes ausführen.
-4. PC: Strg+F5. iPhone: Seite vollständig schließen und neu öffnen.
+GitHub aktualisieren:
+1. index.html im Mainordner ersetzen.
+2. Neuen Pfad messstellen-doku/index.html anlegen und die mitgelieferte Datei einfügen.
+3. service-worker.js im Mainordner ersetzen.
+4. Commit changes ausführen.
+5. PC: Strg+F5. iPhone: Seite vollständig schließen und neu öffnen.
 
-Neu in V1.1:
-- Bearbeiter als Pflichtfeld
-- Startwert Max Mustermann
-- Bearbeiter wird lokal im Browser gespeichert
-- PDF-Kopf auf jeder Seite mit Messstelle, Bearbeiter und Datum
-- Bayer-Logo klein oben rechts auf jeder PDF-Seite
+Vorhandene Ordner und Dateien bleiben bestehen.
+Die Messstellenbezeichnung wird als PDF-Dateiname verwendet.
+Pflichtfelder: Messstellenbezeichnung, Datum, Typenschildfoto, Foto der Einbausituation.
